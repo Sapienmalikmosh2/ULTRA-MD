@@ -19,7 +19,7 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ULTRA-MD';
+global.botname = process.env.BOTNAME || 'SAMMY';
 global.pairingNumber = process.env.BOT_NUMBER || '2348143319231';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || 'aJIWxJSA#GGhbPK3DPsvDMzYwOQxzLDbn5rFLAQuKO1qSVEKkN8Q';  // put your session id here
 
@@ -44,6 +44,11 @@ global.lolkeysapi = ['GataDios']
 
 global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
 
+//========================= [ AUTO SAVE & READ STATUS ] =========================\\
+global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || ",923xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923444844060,923xxxxxxxx";
 
 global.APIs = {
   // API Prefix
@@ -73,8 +78,8 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'GLOBAL-MD'
-global.author = 'GlobalTechInfo'
+global.packname = 'SAMMY'
+global.author = 'BOT'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
