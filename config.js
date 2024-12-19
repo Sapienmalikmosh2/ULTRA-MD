@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '256700273834';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '2348143319231';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '256700273834';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,8 +19,8 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'SAMMY';
-global.pairingNumber = process.env.BOT_NUMBER || '2348143319231';  // put your number here
+global.botname = process.env.BOTNAME || 'Malikmosh';
+global.pairingNumber = process.env.BOT_NUMBER || '256700273834';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || 'aJIWxJSA#GGhbPK3DPsvDMzYwOQxzLDbn5rFLAQuKO1qSVEKkN8Q';  // put your session id here
 
 global.mods = []
@@ -47,8 +47,8 @@ global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "true"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || ",923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923444844060,923xxxxxxxx";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || ",256700273834";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "256700273834,256700273834";
 
 global.APIs = {
   // API Prefix
